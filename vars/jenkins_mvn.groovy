@@ -1,9 +1,7 @@
-defcall(StringrepoUrl) {
+def call(StringrepoUrl) {
 
 pipeline{
-
-agent any
-
+     agent any
 stages{
 
 stage("Checkout Code") {
